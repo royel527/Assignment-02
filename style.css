@@ -1,0 +1,167 @@
+body{
+    margin: 30px;
+}
+.nav-holder,
+.ul,
+.hero,
+.main1{
+    display: flex;
+    justify-content: space-between;
+}
+.li{
+    margin-right: 20px;
+    font-size: 1.5rem;
+}
+.school{display: flex;}
+.color1{
+    color: orange;
+}
+.color2{
+    color: skyblue;
+}
+.title{
+    max-width: 640px;
+    font-size: 2rem;
+}
+.li{
+    list-style: none;
+}
+.nav-item1{
+text-decoration: none;
+}
+.nav-item2{
+    text-decoration: none;
+    color: aqua;
+}
+.nav-item3{
+    text-decoration: none;
+    color: rgb(65, 238, 13);
+}
+.nav-item4{
+    text-decoration: none;
+    color: crimson;
+}
+.box1{
+    background: radial-gradient(circle at top,rgb(228, 189, 189),rgb(144, 144, 197),rgb(171, 228, 171));
+text-align: center;
+border-radius: 20px;
+padding-top: 20px;
+}
+.box2{
+    background: radial-gradient(circle at bottom,rgb(113, 50, 129),rgb(108, 108, 194),rgb(126, 196, 126));
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+.box3{
+    background: radial-gradient(circle at left,rgb(138, 168, 126),rgb(84, 153, 165),rgb(196, 79, 50));
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+.main1{
+    gap: 20px;
+}
+.h1{
+    text-align: center;
+    margin: 60px;
+}
+h3{
+    margin: 10px;
+}
+.icon,
+.last{
+    text-align: center;
+
+}
+.fa-solid {
+    background-color: coral;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+margin-top: 50px;
+text-align: center;
+padding-top: 12px;
+color: #fff;
+}
+.main2{
+    display: flex;
+}
+.main3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+   position: relative;
+
+}
+.story{
+    padding: 30px;
+    position: relative;
+    display: inline-block;
+}
+.spacial{
+    background-color: blueviolet;
+    border-radius: 20px;
+    position: absolute;
+    top: 60%;
+    left:200px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.spacial2{
+    background-color: blueviolet;
+    border-radius: 20px;
+    position: absolute;
+    top: 60%;
+    left:20%;
+    padding: 10px;
+    
+}.spacial3{
+    background-color: blueviolet;
+    border-radius: 20px;
+    position: absolute;
+    top: 60%;
+    left:20%;
+    padding: 10px;
+    
+}.spacial4{
+    background-color: blueviolet;
+    border-radius: 20px;
+    position: absolute;
+    top: 60%;
+    left:20%;
+    padding: 10px;
+    
+}.spacial5{
+    background-color: blueviolet;
+    border-radius: 20px;
+    position: absolute;
+    top: 60%;
+    left:20%;
+    padding: 10px;
+    
+}
+.box15,
+.box25,
+.box35,
+.box45{
+    position: relative;
+    display: inline-block;
+
+}
+.button{
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+.last{
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 30px;
+    margin-left: 45%;
+    margin-top: 50px;
+}
+}
