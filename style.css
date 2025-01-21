@@ -69,6 +69,10 @@ padding-top: 20px;
 h3{
     margin: 10px;
 }
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
 .icon,
 .last{
     text-align: center;
@@ -84,7 +88,8 @@ text-align: center;
 padding-top: 12px;
 color: #fff;
 }
-.main2{
+.main2,
+.logo{
     display: flex;
 }
 .main3{
@@ -164,4 +169,25 @@ color: #fff;
     margin-left: 45%;
     margin-top: 50px;
 }
+.finising{
+    background-color: rgb(194, 88, 189);
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+}
+.footer-holder{
+    display: flex;
+    justify-content: space-between;
+}
+.footer2{
+    display: grid;
+    grid-template-rows: 1,1fr;
+}
+.footer1{
+    max-width: 450px;
+    text-align: justify;
+}
+hr{
+    color: brown;
+    
 }
