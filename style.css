@@ -56,13 +56,13 @@ padding: 20px;
     background: radial-gradient(circle at bottom,rgb(113, 50, 129),rgb(108, 108, 194),rgb(126, 196, 126));
     text-align: center;
     border-radius: 20px;
-    padding-top: 20px;
+    padding: 20px;
 }
 .box3{
     background: radial-gradient(circle at left,rgb(138, 168, 126),rgb(84, 153, 165),rgb(196, 79, 50));
     text-align: center;
     border-radius: 20px;
-    padding-top: 20px;
+    padding: 20px;
 }
 .main1{
     gap: 20px;
@@ -141,7 +141,7 @@ color: #fff;
     position: absolute;
     top: 40%;
     left:20%;
-    padding: 15px;
+    padding: 10px;
     
 }.spacial4{
     background-color: rgb(20, 59, 231);
@@ -149,7 +149,7 @@ color: #fff;
     position: absolute;
     top: 40%;
     left:20%;
-    padding: 15px;
+    padding: 10px;
     
 }.spacial5{
     background-color: rgb(16, 192, 10);
@@ -157,7 +157,7 @@ color: #fff;
     position: absolute;
     top: 40%;
     left:20%;
-    padding: 15px;
+    padding: 10px;
     
 }
 .box15,
