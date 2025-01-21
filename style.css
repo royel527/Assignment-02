@@ -1,5 +1,5 @@
 body{
-    margin: 30px;
+    margin: 20px;
     background-color: bisque;
 }
 .nav-holder,
@@ -49,7 +49,8 @@ text-decoration: none;
     background: radial-gradient(circle at top,rgb(228, 189, 189),rgb(144, 144, 197),rgb(171, 228, 171));
 text-align: center;
 border-radius: 20px;
-padding-top: 20px;
+padding: 20px;
+
 }
 .box2{
     background: radial-gradient(circle at bottom,rgb(113, 50, 129),rgb(108, 108, 194),rgb(126, 196, 126));
@@ -81,7 +82,10 @@ h2{
 .icon,
 .last{
     text-align: center;
-
+font-size: 25px;
+}
+.para{
+    font-size: 1.5rem;
 }
 .fa-solid {
     background-color: coral;
@@ -101,7 +105,8 @@ color: #fff;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
-   position: relative;
+   /* position: relative; */
+   margin-top: 25px;
 
 }
 .story{
@@ -109,11 +114,14 @@ color: #fff;
     position: relative;
     display: inline-block;
 }
+/* p{
+    font-size: 20px;
+} */
 .spacial{
     background-color: rgb(41, 224, 41);
     border-radius: 20px;
     position: absolute;
-    top: 72%;
+    top: 75%;
     left:200px;
     padding: 15px;
     margin-bottom: 20px;
@@ -123,7 +131,7 @@ color: #fff;
     background-color: rgb(43, 153, 226);
     border-radius: 20px;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left:20%;
     padding: 10px;
     
@@ -131,7 +139,7 @@ color: #fff;
     background-color: rgb(59, 228, 17);
     border-radius: 20px;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left:20%;
     padding: 15px;
     
@@ -139,7 +147,7 @@ color: #fff;
     background-color: rgb(20, 59, 231);
     border-radius: 20px;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left:20%;
     padding: 15px;
     
@@ -147,7 +155,7 @@ color: #fff;
     background-color: rgb(16, 192, 10);
     border-radius: 20px;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left:20%;
     padding: 15px;
     
@@ -164,14 +172,15 @@ color: #fff;
     background-color: rgb(119, 221, 2);
     color: #fff;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px 40px;
+    font-size: 25px;
 }
 .last{
     background-color: rgb(14, 189, 81);
     color: #fff;
     border-radius: 5px;
-    padding: 5px 30px;
-    margin-left: 45%;
+    padding: 10px 40px;
+    margin-left: 30%;
     margin-top: 50px;
 }
 .finising{
@@ -212,6 +221,30 @@ img{
 h2{
     text-align: left;
 }
+
+
+.button:hover{
+    background-color: crimson;
+}
+.last:hover{
+    background-color: crimson;
+}
+.spacial:hover{
+    background-color: crimson;
+}
+.spacial2:hover{
+    background-color: crimson;
+}
+.spacial3:hover{
+    background-color: crimson;
+}
+.spacial4:hover{
+    background-color: crimson;
+}
+.spacial5:hover{
+    background-color: crimson;
+}
+
 @media screen and (max-width:570px) {
     .navitem{
         display: none;
@@ -240,7 +273,7 @@ h2{
         flex-direction: column;
     }
   body{
-    margin: 0px;
+    margin: 20px;
     padding: 0px;
   }
    
