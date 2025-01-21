@@ -1,5 +1,6 @@
 body{
     margin: 30px;
+    background-color: bisque;
 }
 .nav-holder,
 .ul,
@@ -71,6 +72,7 @@ padding-top: 20px;
 }
 h3{
     margin: 10px;
+    padding-top:20px ;
 }
 h2{
     text-align: center;
@@ -111,9 +113,9 @@ color: #fff;
     background-color: rgb(41, 224, 41);
     border-radius: 20px;
     position: absolute;
-    top: 60%;
+    top: 72%;
     left:200px;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 20px;
 }
 
@@ -121,7 +123,7 @@ color: #fff;
     background-color: rgb(43, 153, 226);
     border-radius: 20px;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left:20%;
     padding: 10px;
     
@@ -129,25 +131,25 @@ color: #fff;
     background-color: rgb(59, 228, 17);
     border-radius: 20px;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left:20%;
-    padding: 10px;
+    padding: 15px;
     
 }.spacial4{
-    background-color: rgb(194, 19, 27);
+    background-color: rgb(20, 59, 231);
     border-radius: 20px;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left:20%;
-    padding: 10px;
+    padding: 15px;
     
 }.spacial5{
     background-color: rgb(16, 192, 10);
     border-radius: 20px;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left:20%;
-    padding: 10px;
+    padding: 15px;
     
 }
 .box15,
@@ -159,13 +161,13 @@ color: #fff;
 
 }
 .button{
-    background-color: black;
+    background-color: rgb(119, 221, 2);
     color: #fff;
     border-radius: 5px;
     padding: 5px;
 }
 .last{
-    background-color: black;
+    background-color: rgb(14, 189, 81);
     color: #fff;
     border-radius: 5px;
     padding: 5px 30px;
@@ -197,6 +199,7 @@ hr{
 }
 img{
     border-radius: 10PX;
+    width: 100%;
 }
 #icon-bar{
     display: none;
@@ -204,6 +207,10 @@ img{
 .nav{
     border-bottom: 2px solid orange;
    
+}
+.nav-item2,
+h2{
+    text-align: left;
 }
 @media screen and (max-width:570px) {
     .navitem{
@@ -226,7 +233,7 @@ img{
     }
     .main3{
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns:repeat(2,1fr);
         
     }
     .main1{
@@ -239,6 +246,7 @@ img{
    
     .title{
         padding: 20px;
+        text-align: center;
     }
     /* .main2{
         flex-direction: column;
@@ -257,5 +265,7 @@ img{
 top: -40px;
 right: 5px;
     }
-
+.button{
+    margin-left: 20%;
+}
 }
