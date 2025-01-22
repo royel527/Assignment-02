@@ -1,6 +1,6 @@
 body{
     margin: 20px;
-    background-color: bisque;
+   
 }
 .nav-holder,
 .ul,
@@ -19,6 +19,12 @@ body{
 }
 .color2{
     color: skyblue;
+}
+.head{
+    background-color: bisque;
+}
+.main2{
+    background: radial-gradient(circle at top,white,bisque ,rgb(146, 205, 228));
 }
 .title{
     max-width: 640px;
@@ -121,7 +127,7 @@ color: #fff;
     background-color: rgb(41, 224, 41);
     border-radius: 20px;
     position: absolute;
-    top: 75%;
+    top: 70%;
     left:200px;
     padding: 15px;
     margin-bottom: 20px;
@@ -131,7 +137,7 @@ color: #fff;
     background-color: rgb(43, 153, 226);
     border-radius: 20px;
     position: absolute;
-    top: 40%;
+    top: 35%;
     left:20%;
     padding: 10px;
     
@@ -139,7 +145,7 @@ color: #fff;
     background-color: rgb(59, 228, 17);
     border-radius: 20px;
     position: absolute;
-    top: 40%;
+    top: 35%;
     left:20%;
     padding: 10px;
     
@@ -147,7 +153,7 @@ color: #fff;
     background-color: rgb(20, 59, 231);
     border-radius: 20px;
     position: absolute;
-    top: 40%;
+    top: 35%;
     left:20%;
     padding: 10px;
     
@@ -155,7 +161,7 @@ color: #fff;
     background-color: rgb(16, 192, 10);
     border-radius: 20px;
     position: absolute;
-    top: 40%;
+    top: 35%;
     left:20%;
     padding: 10px;
     
@@ -180,7 +186,7 @@ color: #fff;
     color: #fff;
     border-radius: 5px;
     padding: 10px 40px;
-    margin-left: 30%;
+    margin-left: 45%;
     margin-top: 50px;
 }
 .finising{
@@ -213,10 +219,7 @@ img{
 #icon-bar{
     display: none;
 }
-.nav{
-    border-bottom: 2px solid orange;
-   
-}
+
 .nav-item2,
 h2{
     text-align: left;
@@ -295,10 +298,50 @@ h2{
         background-color: rgb(255, 255, 255);
         color: black;
     position: absolute;
-top: -40px;
+top: -35px;
 right: 5px;
     }
 .button{
     margin-left: 20%;
+}
+.nav{
+    border-bottom: 2px solid orange;
+   
+}
+.spacial2{
+    background-color: rgb(43, 153, 226);
+    border-radius: 20px;
+    position: absolute;
+    top: 48%;
+    left:20%;
+    padding: 10px;
+    
+}.spacial3{
+    background-color: rgb(59, 228, 17);
+    border-radius: 20px;
+    position: absolute;
+    top: 48%;
+    left:20%;
+    padding: 10px;
+    
+}.spacial4{
+    background-color: rgb(20, 59, 231);
+    border-radius: 20px;
+    position: absolute;
+    top: 48%;
+    left:20%;
+    padding: 10px;
+    
+}.spacial5{
+    background-color: rgb(16, 192, 10);
+    border-radius: 20px;
+    position: absolute;
+    top: 48%;
+    left:20%;
+    padding: 10px;
+    
+}
+.last{
+    margin-left: 35%;
 }
 }
