@@ -228,24 +228,31 @@ h2{
 
 .button:hover{
     background-color: crimson;
+    transform: rotate(5deg);
 }
 .last:hover{
-    background-color: crimson;
+    background-color: rgb(236, 10, 10);
+    transform: rotate(5deg);
 }
 .spacial:hover{
-    background-color: crimson;
+    background-color: rgb(220, 127, 20);
+    transform: rotate(5deg);
 }
 .spacial2:hover{
-    background-color: crimson;
+    background-color: rgb(33, 20, 220);
+    transform: rotate(5deg);
 }
 .spacial3:hover{
-    background-color: crimson;
+    background-color: rgb(152, 10, 235);
+    transform: rotate(5deg);
 }
 .spacial4:hover{
-    background-color: crimson;
+    background-color: rgb(14, 233, 149);
+    transform: rotate(5deg);
 }
 .spacial5:hover{
     background-color: crimson;
+    transform: rotate(5deg);
 }
 
 @media screen and (max-width:570px) {
@@ -298,8 +305,8 @@ h2{
         background-color: rgb(255, 255, 255);
         color: black;
     position: absolute;
-top: -35px;
-right: 5px;
+top: -25px;
+right: 30px;
     }
 .button{
     margin-left: 20%;
@@ -312,7 +319,7 @@ right: 5px;
     background-color: rgb(43, 153, 226);
     border-radius: 20px;
     position: absolute;
-    top: 48%;
+    top: 40%;
     left:20%;
     padding: 10px;
     
@@ -320,7 +327,7 @@ right: 5px;
     background-color: rgb(59, 228, 17);
     border-radius: 20px;
     position: absolute;
-    top: 48%;
+    top: 40%;
     left:20%;
     padding: 10px;
     
@@ -328,7 +335,7 @@ right: 5px;
     background-color: rgb(20, 59, 231);
     border-radius: 20px;
     position: absolute;
-    top: 48%;
+    top: 40%;
     left:20%;
     padding: 10px;
     
@@ -336,12 +343,12 @@ right: 5px;
     background-color: rgb(16, 192, 10);
     border-radius: 20px;
     position: absolute;
-    top: 48%;
+    top: 40%;
     left:20%;
     padding: 10px;
     
 }
 .last{
-    margin-left: 35%;
+    margin-left: 30%;
 }
 }
