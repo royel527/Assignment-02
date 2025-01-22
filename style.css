@@ -317,7 +317,7 @@ top: -25px;
 right: 30px;
     }
 .button{
-    margin-left: 20%;
+    margin-left: 8%;
 }
 .nav{
     border-bottom: 2px solid orange;
@@ -328,7 +328,7 @@ right: 30px;
     border-radius: 20px;
     position: absolute;
     top: 40%;
-    left:20%;
+    left:15%;
     padding: 10px;
     
 }.spacial3{
@@ -336,7 +336,7 @@ right: 30px;
     border-radius: 20px;
     position: absolute;
     top: 40%;
-    left:20%;
+    left:15%;
     padding: 10px;
     
 }.spacial4{
@@ -344,7 +344,7 @@ right: 30px;
     border-radius: 20px;
     position: absolute;
     top: 40%;
-    left:20%;
+    left:15%;
     padding: 10px;
     
 }.spacial5{
@@ -352,11 +352,15 @@ right: 30px;
     border-radius: 20px;
     position: absolute;
     top: 40%;
-    left:20%;
+    left:15%;
     padding: 10px;
     
 }
 .last{
     margin-left: 30%;
 }
+.hero{
+    padding-left: 0px;
+}
+
 }
